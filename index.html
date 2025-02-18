@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid;
+        }
+        td, th{
+            width: 30px;
+            height: 30px;
+        }
+        td {
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 70%; margin: 25px auto;">
+        <!-- TABLE HEAD START -->
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <!-- TABLE HEAD END -->
+
+        <!-- TABLE BODY START -->
+         <!-- monday start -->
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8 a.m</td>
+            <td rowspan="2">5 p.m</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax Ng</td>
+        </tr>
+        <!-- monday end -->
+
+        <!-- tuesday start -->
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8 a.m</td>
+            <td>11 a.m</td>
+            <td rowspan="3">XPath</td>
+        </tr>
+        <tr>
+            <td>11 a.m</td>
+            <td>2 p.m</td>
+        </tr>
+        <tr>
+            <td>2 p.m</td>
+            <td>5 p.m</td>
+        </tr>
+        <!-- tuesday end -->
+
+        <!-- wednesday start -->
+         <tr>
+            <td>Wednesday</td>
+            <td>8 a.m</td>
+            <td>12 p.m</td>
+            <td>XSL Formating Objects</td>
+         </tr>
+
+        <!-- wednesday end -->
+        <!-- TABLE BODY END -->
+    </table>
+</body>
+</html>
